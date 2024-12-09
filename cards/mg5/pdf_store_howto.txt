@@ -1,0 +1,15 @@
+
+R. Privara, 28.5.2021:
+
+Ve složce
+    [MG5folder]/HEPTools/MG5aMC_PY8_interface
+v souboru
+    MG5aMC_PY8_interface.cc
+změnit řádek (já ho měl na pozici 144, můžete mít jinde)
+    ToHepMC.set_store_pdf(false);
+na
+    ToHepMC.set_store_pdf(true);
+a potom znovu zkompilovat MG5aMC-PY8 interface - ve stejné složce:
+    python3 compile.py ../pythia8/
+
+Pokud máte pythii externě, tak v posledním řádku byste nejspíš odkázal na její složku. Jiné změny jsem nedělal (nic např. v kartách).

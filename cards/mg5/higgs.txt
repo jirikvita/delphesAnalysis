@@ -1,0 +1,18 @@
+
+
+7.6.2023
+
+
+https://answers.launchpad.net/mg5amcnlo/+question/702173
+
+w/o HEFT
+generate p p > h QED=1 [noborn=QCD]
+
+
+w/ HEFT
+import model heft
+generate p p > h
+
+
+
+
